@@ -1,0 +1,254 @@
+{% extends 'base.html' %}
+
+{% block title %} Home{% endblock title %}
+{%block body%}
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+          <!-- home -->
+          <style>
+#typed{
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 127, 238);
+  font-size: 26px;
+  letter-spacing: 1;
+}
+
+#heading{
+  font-family: 'poiret one',cursive;
+  font-weight: 600;
+}
+#heading2{
+  font-family: 'poiret one',cursive;
+  font-weight: 600;
+  color: #5222d0;
+}
+#headingall{
+  font-family: 'poiret one',cursive;
+  font-weight: 600;
+  color:#fd5c63;
+  font-size: 30px;
+}
+.typed-cursor{
+  color:rgb(0, 127, 238);
+  font-size: 26px;
+}
+          </style>
+          <section class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <h1 id="heading"  class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">CodeWithShreyansh</h1>
+                         <h1  id="heading2" class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Learn Coding For Free !
+                         </h1>
+                         <h1><span id="typed"></span></h1>
+                        <br>
+                        
+                        <div class="flex justify-center">
+                          <a href="/blog" class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600-text-white rounded text-lg">Browse Blogs</a>
+                          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Browse Video Tutorials</button>
+                        </div>
+                      </div>
+                      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                        <img class="object-cover object-center rounded" alt="hero" src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg">
+                      </div>
+                    </div>
+                  </section>
+                  <!-- steps -->
+                  
+                  <section class="text-gray-600 body-font">
+                    <h1 id="headingall"> <center>Steps To Become A Great Coder</center></h1>
+                    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+                      <div class="flex flex-wrap w-full">
+                        <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+                          <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                              <div class="h-full w-1 bg-gray-200 pointer-events-none">
+                               
+                              </div>
+                            </div>
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                              </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"> STEP 1</h2>
+                              <p class="leading-relaxed">Visit Our Site </p>
+                            </div>
+                          </div>
+                          <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                              </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
+                              <p class="leading-relaxed">Start Enhancing Your Coding Skills By Our Awesome  Video Lectures and For Fast Learning You Can Raed Our Blogs and In Every Course I will Give My Handwritten Notes Source code I written In every Video</p>
+                            </div>
+                          </div>
+                          <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <circle cx="12" cy="5" r="3"></circle>
+                                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                              </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
+                              <p class="leading-relaxed">Don't Stop Coding Keeping Going and Practicing Our Coding Concepts</p>
+                            </div>
+                          </div>
+                          <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                              </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
+                              <p class="leading-relaxed">Now Make Amazing Projects and publish it to Github and give link in comment box I will Check Everyone's Project and I will tell Best students Name In next Video</p>
+                            </div>
+                          </div>
+                          <div class="flex relative">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative z-10">
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                                <path d="M22 4L12 14.01l-3-3"></path>
+                              </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
+                              <p class="leading-relaxed">By all These Facilites You Will become a Great Coder </p>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://image.freepik.com/free-vector/progress-concept-illustration_114360-1522.jpg" >
+                      </div>
+                    </div>
+                  </section>
+        <!-- contact sections   -->
+        <section class="text-gray-600 body-font relative">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+              <h1 id="headingall" class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Your all Information will secret</p>
+            </div>
+            <form action="javascript:sendmail()" method="post">
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+              <div class="flex flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                    <input type="text" id="Name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="Email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Phone Number</label>
+                    <input type="number" id="Phone" name="phone" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Subject</label>
+                    <input type="text" id="Subject" name="subject" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <div class="relative">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                    <textarea id="Message" name="Messege" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+             <input type="submit" class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg " style="cursor: pointer;" >
+                </div>
+
+              </div>
+              </form>
+            </div>
+          </div>
+        </section> 
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
+<script>  
+
+     function sendmail(){
+    
+			var name = $('#Name').val();
+			var email = $('#Email').val();
+			var phone = $('#Phone').val();
+			var subject = $('#Subject').val();
+      var message = $('#Message').val();
+
+			// var body = $('#body').val();
+
+			var Body='Name: '+name+'<br>Email: '+email+'<br>Phone Number '+phone+'<br>Subject: '+subject+'<br>Message: '+message;
+			//console.log(name, phone, email, message);
+
+			Email.send({
+        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+				To: 'shuchirawal2008@gmail.com',
+				From: "codewithshreyansh@gmail.com",
+				Subject: "New message on contact from "+name,
+				Body: Body
+			})
+      .then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+						alert('your messege is submitted')
+					}
+					else{
+						console.error (message);
+						alert('There is error at sending message. ')
+						
+					}
+
+				}
+			);
+
+
+
+		}
+
+
+    </script>
+ </script>
+ <footer class="page-footer font-small blue bg-light ">
+
+  <!-- Copyright -->
+  <div id="my-footer" class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="/">CodeWithShreyansh</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>   
+
+     
+  
+        <!-- linking Vendor Js Files -->
+        <script src="../static/typed.js/typed.min.js"></script>
+        {% endblock %}
